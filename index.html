@@ -38,6 +38,30 @@
                 <a href="#dashboard" class="nav-link">Dashboard</a>
                 <a href="#features" class="nav-link">Features</a>
                 <a href="#contact" class="nav-link">Contact</a>
+                
+                <!-- Language Selector -->
+                <div class="language-selector">
+                    <button class="language-btn" id="languageBtn">
+                        <i class="fas fa-globe"></i>
+                        <span class="lang-text">EN</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="language-dropdown" id="languageDropdown">
+                        <button class="language-option" data-lang="en">
+                            <span class="lang-flag">EN</span>
+                            <span class="lang-name">English</span>
+                        </button>
+                        <button class="language-option" data-lang="hi">
+                            <span class="lang-flag">HI</span>
+                            <span class="lang-name">Hindi</span>
+                        </button>
+                        <button class="language-option" data-lang="od">
+                            <span class="lang-flag">OD</span>
+                            <span class="lang-name">Odia</span>
+                        </button>
+                    </div>
+                </div>
+                
                 <button class="btn-primary nav-btn">Get Started</button>
             </div>
             <div class="hamburger" id="hamburger">
@@ -80,6 +104,11 @@
                             View Demo
                         </button>
                     </div>
+                </div>
+                
+                <!-- Mascot Animation -->
+                <div class="mascot-container">
+                    <img id="mascotImage" src="public/mascot_animated_frame1.png" alt="LearnQuest Mascot" class="mascot-image">
                 </div>
                 
                 <!-- Hero Stats -->
@@ -460,5 +489,7 @@
     <script src="js/main.js"></script>
     <script src="js/animations.js"></script>
     <script src="js/3d-elements.js"></script>
+    <script src="js/language-selector.js"></script>
+    <script src="js/mascot-animation.js"></script>
 </body>
 </html><script async data-explicit-opt-in="true" data-cookie-opt-in="true" data-deployment-id="dpl_EHGe35DhQjLd7JuHTXacEkBnqtkd" src="https://vercel.live/_next-live/feedback/feedback.js"></script>
