@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
     
     let currentFrame = 0;
-    const frameInterval = 2000; // Change frame every 2 seconds
+    const frameInterval = 800; // Change frame every 2 seconds
     
     // Function to change mascot frame
     function changeMascotFrame() {
