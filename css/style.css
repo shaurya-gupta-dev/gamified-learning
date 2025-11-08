@@ -255,7 +255,7 @@ p {
     width: 300px;
     height: auto;
     object-fit: contain;
-    animation: mascot-bounce 2s ease-in-out infinite;
+    animation: mascot-bounce 800ms ease-in-out infinite;
     filter: drop-shadow(0 10px 30px rgba(0, 242, 254, 0.3));
 }
 
